@@ -1,0 +1,73 @@
+/* PC */
+
+/* Table */
+@media (min-width: 740) and (max-width: 1023px) {
+
+}
+
+/* Mobile */
+@media (max-width: 739px){
+
+    .s-col-full {
+        width: 100%;
+    }
+
+    #nav, #nav > li {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    /* Lấy ra thẻ li đầu tiên trong list li */
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position:  initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+      }
+
+    #header .search-icon { 
+        display: none;
+    }
+
+    #content .member-list {
+        display: block;
+    }
+
+    #content .member-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    #tour .place-list, #contact .contact-content, #contact .contact-form {
+        display: block;
+    }
+
+    #contact .contact-form {
+        margin-top: 32px;
+    }
+    #contact .contact-form .row{
+        display: block;
+    }
+}
